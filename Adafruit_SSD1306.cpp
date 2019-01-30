@@ -36,7 +36,7 @@ All text above, and the splash screen below must be included in any redistributi
 #define SSD1306_SETDISPLAYCLOCKDIV 0xD5
 #define SSD1306_SETPRECHARGE 0xD9
 #define SSD1306_SETMULTIPLEX 0xA8
-#define SSD1306_SETLOWCOLUMN 0x00
+#define SSD1306_SETLOWCOLUMN 0x02 //test for SH1106
 #define SSD1306_SETHIGHCOLUMN 0x10
 #define SSD1306_SETSTARTLINE 0x40
 #define SSD1306_MEMORYMODE 0x20
